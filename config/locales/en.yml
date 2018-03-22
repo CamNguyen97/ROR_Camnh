@@ -31,3 +31,10 @@
 
 en:
   hello: "Hello world"
+  base_title: "ROR_CamNH"
+  homeview: "Home"
+  help: "Help"
+  login: "Log in"
+  home:
+    index:
+      title: "Home"
