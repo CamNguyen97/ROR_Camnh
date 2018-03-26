@@ -41,9 +41,12 @@ en:
   settings: "Settings"
   log_out: "Log out"
   account: "Account"
-  users: "Users"
+  user: "Users"
   suscess: "Welcome to the Sample App!"
   remember: "Remember me on this computer"
+  danger: "Please log in."
+  delete: "Delete"
+  user_deleted: "User deleted"
   home:
     index:
       title: "Home"
@@ -56,3 +59,12 @@ en:
        new_user: "New user?"
        signup_now: "Sign up now!"
        danger: "Invalid email/password combination"
+    new:
+      new_user: "New user?"
+      signup_now: "Sign up now!"
+      danger: "Invalid email/password combination"
+    edit:
+      edit_title: "Edit user"
+      view: "Update your profile"
+      change: "change"
+      save_changes: "Save changes"

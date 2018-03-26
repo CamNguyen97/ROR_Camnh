@@ -2,3 +2,6 @@ maximum_name: 50
 maximum_email: 255
 minimum_pass: 6
 gravatar_size: 80
+index_size: 50
+session_member: 1
+per_page: 5
