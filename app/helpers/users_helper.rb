@@ -1,12 +1,4 @@
-module ApplicationHelper
-
-  def full_title ptitle = ""
-    if ptitle.empty?
-      t("base_title")
-    else
-      ptitle + " | " + t("base_title")
-    end
-  end
+module UsersHelper
 
   def gravatar_for user, options = {size: Settings.gravatar_size}
     gravatar_id = Digest::MD5::hexdigest user.email.downcase
