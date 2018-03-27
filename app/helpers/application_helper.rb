@@ -2,9 +2,9 @@ module ApplicationHelper
 
   def full_title ptitle = ""
     if ptitle.empty?
-      I18n.t("base_title")
+      t "base_title"
     else
-      ptitle + " | " + I18n.t("base_title")
+      ptitle + " | " + t("base_title")
     end
   end
 
