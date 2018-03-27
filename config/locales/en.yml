@@ -35,6 +35,38 @@ en:
   homeview: "Home"
   help: "Help"
   login: "Log in"
+  confirm: "Confirmation"
+  error: "Error"
+  profile: "Profile"
+  settings: "Settings"
+  log_out: "Log out"
+  account: "Account"
+  user: "Users"
+  suscess: "Welcome to the Sample App!"
+  remember: "Remember me on this computer"
+  danger: "Please log in."
+  delete: "Delete"
+  user_deleted: "User deleted"
+  info: "Please check your email to activate your account."
+  message: Account not activated. "
+  account_activated: "Account activated!"
   home:
     index:
       title: "Home"
+  users:
+    new:
+      signup: "Sign up"
+      create_acount: "Create account"
+  sessions:
+    new:
+      new_user: "New user?"
+      signup_now: "Sign up now!"
+      danger: "Invalid email/password combination"
+    edit:
+      edit_title: "Edit user"
+      view: "Update your profile"
+      change: "change"
+      save_changes: "Save changes"
+  account:
+    edit:
+      danger: "Invalid activation link"
