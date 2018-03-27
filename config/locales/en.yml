@@ -35,8 +35,13 @@ en:
   homeview: "Home"
   help: "Help"
   login: "Log in"
-  confirm: "Confirmation"
   error: "Error"
+  confirm: "Confirmation"
+  profile: "Profile"
+  settings: "Settings"
+  log_out: "Log out"
+  account: "Account"
+  users: "Users"
   suscess: "Welcome to the Sample App!"
   home:
     index:
@@ -45,3 +50,8 @@ en:
     new:
       signup: "Sign up"
       create_acount: "Create account"
+  sessions:
+     new:
+       new_user: "New user?"
+       signup_now: "Sign up now!"
+       danger: "Invalid email/password combination"
