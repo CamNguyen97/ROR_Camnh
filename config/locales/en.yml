@@ -43,6 +43,11 @@ en:
   account: "Account"
   users: "Users"
   suscess: "Welcome to the Sample App!"
+  suscess: "Welcome to the Sample App!"
+  submit:
+    post: "Post"
+  application:
+    danger: "Please log in."
   home:
     index:
       title: "Home"
@@ -55,3 +60,17 @@ en:
        new_user: "New user?"
        signup_now: "Sign up now!"
        danger: "Invalid email/password combination"
+  micropost:
+    micropost_name: "Micropost"
+    post: "Posted"
+    ago: "ago."
+    success: "Micropost created!"
+    delete: "Micropost deleted"
+  static_pages:
+    home:
+      rails_logo: "Rails logo"
+  share:
+    user: "view my profile"
+    form:
+      placeholder: "Compose new micropost..."
+

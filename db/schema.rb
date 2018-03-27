@@ -12,10 +12,13 @@
 
 ActiveRecord::Schema.define(version: 20180327094958) do
 
-  create_table "test1s", force: :cascade do |t|
-    t.string "name"
+  create_table "microposts", force: :cascade do |t|
+    t.text "content"
+    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["user_id", "created_at"], name: "index_microposts_on_user_id_and_created_at"
+    t.index ["user_id"], name: "index_microposts_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -24,6 +27,10 @@ ActiveRecord::Schema.define(version: 20180327094958) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "password_digest"
+    t.string "remember_digest"
+    t.string "activation_digest"
+    t.boolean "activated", default: false
+    t.datetime "activated_at"
   end
 
 end

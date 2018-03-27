@@ -2,3 +2,6 @@ maximum_name: 50
 maximum_email: 255
 minimum_pass: 6
 gravatar_size: 80
+micropost: 140
+micropost_html: 50
+user_info: 50
