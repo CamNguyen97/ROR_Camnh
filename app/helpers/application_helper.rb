@@ -4,8 +4,15 @@ module ApplicationHelper
     if ptitle.empty?
       t "base_title"
     else
-      ptitle + " | " + t("base_title")
+      ptitle + " | " + t "base_title"
     end
+  end
+
+  def gravatar_for user, options = {size: Settings.gravatar_size}
+    gravatar_id = Digest::MD5::hexdigest user.email.downcase
+    size = options[:size]
+    gravatar_url = "https://secure.gravatar.com/avatar/#{gravatar_id}?s=#{size}"
+    image_tag gravatar_url, alt: user.name, class: "gravatar"
   end
 
 end
