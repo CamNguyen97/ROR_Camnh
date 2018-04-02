@@ -35,6 +35,13 @@ en:
   homeview: "Home"
   help: "Help"
   login: "Log in"
+  confirm: "Confirmation"
+  error: "Error"
+  suscess: "Welcome to the Sample App!"
   home:
     index:
       title: "Home"
+  users:
+    new:
+      signup: "Sign up"
+      create_acount: "Create account"
