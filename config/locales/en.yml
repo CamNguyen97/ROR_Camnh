@@ -35,14 +35,15 @@ en:
   homeview: "Home"
   help: "Help"
   login: "Log in"
-  error: "Error"
   confirm: "Confirmation"
+  error: "Error"
   profile: "Profile"
   settings: "Settings"
   log_out: "Log out"
   account: "Account"
   users: "Users"
   suscess: "Welcome to the Sample App!"
+  remember: "Remember me on this computer"
   home:
     index:
       title: "Home"

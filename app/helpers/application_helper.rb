@@ -4,7 +4,7 @@ module ApplicationHelper
     if ptitle.empty?
       t "base_title"
     else
-      ptitle + " | " + t "base_title"
+      ptitle + " | " + t("base_title")
     end
   end
 
